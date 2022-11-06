@@ -1,0 +1,65 @@
+
+# Tab Titles
+LOGIN_TAB_TITLE=Samsara
+HOME_TAB_TITLE=Home
+USERS_TAB_TITLE=Users
+HEROES_TAB_TITLE=Heroes
+GALLERY_TAB_TITLE=Gallery
+API_TAB_TITLE=API
+PRACTICE_TAB_TITLE=Practice
+BROKEN_LINK_TAB_TITLE=Broken Link
+ADMIN_TAB_TITLE=Admin
+
+# Link Titles
+PROFILE_LINK_TITLE=Profile
+LOGOUT_LINK_TITLE=Log Out
+
+# Page Titles
+LOGIN_PAGE_TITLE=Hello, and welcome to our gamers page!
+HOME_PAGE_TITLE=Samsara Homepage
+USERS_PAGE_TITLE=Users
+HEROES_PAGE_TITLE=Heroes
+GALLERY_PAGE_TITLE=Gallery
+API_PAGE_TITLE=API Documentation
+PRACTICE_PAGE_TITLE=Practice
+BROKEN_LINK_PAGE_TITLE=Alice in Wonderland
+ADMIN_PAGE_TITLE=Hey there admin!
+PROFILE_PAGE_TITLE=Your Profile
+CREATE_ACCOUNT_PAGE_TITLE=Register New Account
+RESET_PASSWORD_PAGE_TITLE=Reset Password
+
+# Login Page
+LOGIN_ERROR_MESSAGE=Invalid username and password.
+LOGOUT_SUCCESS_MESSAGE=You have been logged out.
+REGISTER_SUCCESS_MESSAGE=You have successfully registered on Samsara.
+
+# Practice Page
+USELESS_TOOLTIP_TEXT=This is one useless tooltip! Nevertheless, try to get its content!
+
+
+# Hero Class
+WARRIOR_HERO_CLASS=Warrior
+GUARDIAN_HERO_CLASS=Guardian
+REVENANT_HERO_CLASS=Revenant
+ENGINEER_HERO_CLASS=Engineer
+THIEF_HERO_CLASS=Thief
+RANGER_HERO_CLASS=Ranger
+ELEMENTALIST_HERO_CLASS=Elementalist
+NECROMANCER_HERO_CLASS=Necromancer
+MESMER_HERO_CLASS=Mesmer
+
+# Delete Hero DialogBox
+DELETE_HERO_MESSAGE=Do you really want to delete hero %HERO_NAME% (%HERO_CLASS%, %HERO_LEVEL%)?
+DRAG_AND_DROP_MESSAGE=You have successfully performed drag&drop action!
+
+# API Errors
+API_ERROR_FORBIDDEN=Forbidden
+API_ERROR_INTERNAL_SERVER_ERROR=Internal Server Error
+
+# API Messages
+API_MESSAGE_ACCESS_DENIED=Access is denied
+API_MESSAGE_ALREADY_EXISTING_USER=User '%USERNAME%' already exists!
+API_MESSAGE_EMAIL_NOT_SPECIFIED=Email is not specified!
+
+# API Exceptions
+API_ILLEGAL_ARGUMENT_EXCEPTION=java.lang.IllegalArgumentException

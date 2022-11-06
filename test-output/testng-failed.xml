@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="methods" name="Failed suite [Demo Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="listeners.TestListener"/>
+  </listeners>
+  <test thread-count="4" parallel="methods" name="Demo Tests(failed)">
+    <parameter name="updateJira" value="true"/>
+    <groups>
+      <run>
+        <include name="demo"/>
+        <exclude name="deprecated"/>
+        <exclude name="broken"/>
+        <exclude name="bugs"/>
+        <exclude name="sequential"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="tests.login.SuccessfulLoginLogout">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUpTest"/>
+          <include name="testSuccessfulLoinLogout"/>
+        </methods>
+      </class> <!-- tests.login.SuccessfulLoginLogout -->
+      <class name="tests.login.SuccessfulLoginLogoutTwoDrivers">
+        <methods>
+          <include name="testSuccessfulLoinLogoutTwoDrivers"/>
+          <include name="tearDown"/>
+          <include name="setUpTest"/>
+        </methods>
+      </class> <!-- tests.login.SuccessfulLoginLogoutTwoDrivers -->
+    </classes>
+  </test> <!-- Demo Tests(failed) -->
+</suite> <!-- Failed suite [Demo Suite] -->

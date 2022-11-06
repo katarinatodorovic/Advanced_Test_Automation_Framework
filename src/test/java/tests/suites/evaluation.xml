@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<!-- The set of sanity tests to execute on the system -->
+
+<suite name="Evaluation Suite" parallel="methods" thread-count="4">
+    <test name="Evaluation Tests">
+        <!--        it will run all tests except test that are defined -->
+        <groups>
+            <run>
+                <include name="evaluation"/>
+                <exclude name="deprecated"/>
+                <exclude name="regression"/>
+                <exclude name="broken"/>
+                <exclude name="bugs"/>
+                <exclude name="sequential"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="tests.*"/>
+        </packages>
+    </test>
+
+</suite>

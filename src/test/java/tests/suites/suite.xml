@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<!-- The set of sanity tests to execute on the system -->
+
+<suite name="Suite" parallel="true" thread-count="4">
+
+
+    <test name="Tests">
+
+        <classes>
+            <class name="tests.login.SuccessfulLoginLogoutTest" />
+        </classes>
+
+    </test>
+
+</suite>

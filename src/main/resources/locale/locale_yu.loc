@@ -1,0 +1,3 @@
+# Login Page
+LOGIN_ERROR_MESSAGE =Zeznn'o si korisnicko ime ili sifru!
+LOGOUT_SUCCESS_MESSAGE =Izlogov'o si se! Bravo!
